@@ -21,3 +21,5 @@ console.log('\nBalance of xavier is ', savjeeCoin.getBalanceOfAddress(myWalletAd
 savjeeCoin.chain[1].transactions[0].amount = 1;
 
 console.log('Is chain valid?', savjeeCoin.isChainValid());
+
+console.log(JSON.stringify(savjeeCoin, null, 2));
